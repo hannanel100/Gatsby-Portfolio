@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'feeding-times.jpg',
+    img: 'feeding-times.PNG',
     title: 'Feeding-Times',
     info: "This App is for new mothers to record the new baby's feeding times.",
     info2: 'Using Reactjs, material-ui and firebase for authentication and database',
