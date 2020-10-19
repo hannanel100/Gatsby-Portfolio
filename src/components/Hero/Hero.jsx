@@ -20,7 +20,7 @@ const Header = () => {
       setIsDesktop(false);
     }
   }, []);
-
+  if (name && title && subtitle && cta) {
   return (
     <section id="hero" className="jumbotron">
       <Container>
@@ -46,4 +46,6 @@ const Header = () => {
   );
 };
 
+return <section id="hero" className="jumbotron" />;
+}
 export default Header;
