@@ -20,7 +20,7 @@ const Header = () => {
       setIsDesktop(false);
     }
   }, []);
-  if (name && title && subtitle && cta) {
+  if (name && title && subtitle ) {
   return (
     <section id="hero" className="jumbotron">
       <Container>
