@@ -31,10 +31,10 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'feeding-times.PNG',
+    img: 'feeding-times.jpg',
     title: 'Feeding-Times',
     info: "This App is for new mothers to record the new baby's feeding times.",
-    info2: 'Using Reactjs and firebase for authentication and database',
+    info2: 'Using Reactjs, material-ui and firebase for authentication and database',
     url: 'http://hannanel100.github.io/feeding-times',
     repo: 'https://github.com/hannanel100/feeding-times', // if no repo, the button will not show up
   },
