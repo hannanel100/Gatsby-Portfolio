@@ -38,6 +38,15 @@ export const projectsData = [
     url: 'http://hannanel100.github.io/feeding-times',
     repo: 'https://github.com/hannanel100/feeding-times', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'hangman.PNG',
+    title: 'Hebrew-Hangman',
+    info: 'A hebrew hangman game done in Vanilla JS',
+    info2: 'Applying DOM manipulations and asynchronous programing',
+    url: 'https://hebrew-hangman.netlify.app/',
+    repo: 'https://github.com/hannanel100/hangman-game-hebrew', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
